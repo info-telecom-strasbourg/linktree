@@ -23,6 +23,7 @@ import {
   FaInstagram,
   FaMedium,
   FaCode,
+  FaDiscord,
 } from "react-icons/fa";
 import { MdLeaderboard } from "react-icons/md";
 import { GoFlame, GoCode } from "react-icons/go";
@@ -44,6 +45,9 @@ const LinkCard = (props: CardProps) => {
         break;
       case "Github":
         values = { color: "#F2FFE9", icon: FaGithub };
+        break;
+      case "Discord":
+        values = { color: "#F2FFE9", icon: FaDiscord };
         break;
       case "Twitter":
         values = { color: "#55acee", icon: FaTwitter };

@@ -8,6 +8,7 @@ export interface CardProps {
   href: string;
   title: string;
   description: string;
+  section: string;
 }
 
 // you can add more such data if you want to add
@@ -15,63 +16,45 @@ export interface CardProps {
 
 export const CardData: Array<CardProps> = [
   {
-    href: "https://www.linkedin.com/",
+    href: "https://www.linkedin.com/company/info-telecom-strasbourg",
     title: "Linkedin",
     description: "Let's connect on LinkedIn",
+    section: "Social Media",
   },
   {
-    href: "https://www.youtube.com/",
-    title: "Youtube",
-    description: "Chek out my youtube channel",
-  },
-  {
-    href: "https://www.instagram.com/",
+    href: "https://www.instagram.com/info.telecom.strasbourg",
     title: "Instagram",
-    description: "Get to know me Personally",
+    description: "Follow us on Instagram",
+    section: "Social Media",
   },
   {
-    href: "https://github.com/",
+    href: "https://discord.gg/wJ4VtNavFk",
+    title: "Discord",
+    description: "Join our Discord server",
+    section: "Social Media",
+  },
+  {
+    href: "https://www.facebook.com/Info.Telecom.Strasbourg",
+    title: "Facebook",
+    description: "Follow us on Facebook",
+    section: "Social Media",
+  },
+  {
+    href: "https://info-telecom-strasbourg.fr",
+    title: "Website",
+    description: "Visit our website",
+    section: "Social Media",
+  },
+  {
+    href: "https://github.com/info-telecom-strasbourg",
     title: "Github",
-    description: "Check out some of my projects",
+    description: "Check out some of our code projects",
+    section: "Projects",
   },
   {
-    href: "https://twitter.com/",
-    title: "Twitter",
-    description: "Yes, I give opinions too",
-  },
-  {
-    href: "https://web.whatsapp.com/",
-    title: "Whatsapp",
-    description: "Let's talk on Whatsapp",
-  },
-  {
-    href: "https://leetcode.com/",
-    title: "Leetcode",
-    description: "See me grinding DSA daily",
-  },
-  {
-    href: "https://medium.com/",
-    title: "Medium",
-    description: "Read some of my fantastic articles here",
-  },
-  {
-    href: "https://codeforces.com/",
-    title: "Codeforces",
-    description: "My daily chill zone",
-  },
-  {
-    href: "https://www.codechef.com/",
-    title: "Codechef",
-    description: "I cook code here",
-  },
-  {
-    href: "https://www.hackerrank.com/",
-    title: "HackerRank",
-    description: "I practice programming here",
-  },
-  {
-    href: "https://www.spotify.com/",
-    title: "Spotify",
-    description: "Listen to some of my favourite songs",
+    href: "https://uptime.its-tps.fr/status/its",
+    title: "Uptime Kuma",
+    description: "Check out our servers status",
+    section: "Servers",
   },
 ];
