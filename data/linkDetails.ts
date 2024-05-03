@@ -57,4 +57,28 @@ export const CardData: Array<CardProps> = [
     description: "Check out our servers status",
     section: "Servers",
   },
+  {
+    href: "https://nextcloud.its-tps.fr",
+    title: "Nextcloud",
+    description: "",
+    section: "Applications",
+  },
+  {
+    href: "https://overleaf.its-tps.fr",
+    title: "Overleaf",
+    description: "",
+    section: "Applications",
+  },
+  {
+    href: "https://excalidraw.its-tps.fr",
+    title: "Excalidraw",
+    description: "",
+    section: "Applications",
+  },
+  {
+    href: "https://etherpad.its-tps.fr",
+    title: "Etherpad",
+    description: "",
+    section: "Applications",
+  },
 ];
