@@ -58,6 +58,30 @@ export const CardData: Array<CardProps> = [
     section: "Servers",
   },
   {
+    href: "https://matrix.its-tps.fr/_matrix/static/",
+    title: "Matrix",
+    description: "Check out our Matrix server",
+    section: "Servers",
+  },
+  {
+    href: "",
+    title: "Minecraft",
+    description: "Join our Minecraft server mineraft.its-tps.fr",
+    section: "Servers",
+  },
+  {
+    href: "https://mirror.its-tps.fr",
+    title: "Linux Mirror",
+    description: "Download your Linux packages from our mirror",
+    section: "Servers",
+  },
+  {
+    href: "https://virtualmin.its-tps.fr",
+    title: "Virtualmin",
+    description: "Host your website with us",
+    section: "Servers",
+  },
+  {
     href: "https://nextcloud.its-tps.fr",
     title: "Nextcloud",
     description: "",
@@ -79,6 +103,12 @@ export const CardData: Array<CardProps> = [
     href: "https://etherpad.its-tps.fr",
     title: "Etherpad",
     description: "",
+    section: "Applications",
+  },
+  {
+    href: "https://app.its-tps.fr",
+    title: "InsidePSBS",
+    description: "The app for the students of the schools",
     section: "Applications",
   },
 ];
