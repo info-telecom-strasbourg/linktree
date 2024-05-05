@@ -3,7 +3,7 @@ import Head from "next/head";
 import Image from 'next/image';
 import AllCards from "../components/AllCards";
 import { Heading, Flex, Text } from "@chakra-ui/react";
-import { fullName, tagline, footer, url, address } from "../data/mainDetails";
+import { fullName, tagline, copyright, url, address } from "../data/mainDetails";
 
 const Home: NextPage = () => {
   return (
@@ -46,8 +46,8 @@ const Home: NextPage = () => {
         </div>
       </main>
       <footer style={{ marginBottom: 10 }}>
-        <Text fontSize={{ base: "sm", md: "md", lg: "lg" }} color="green.100" fontWeight="light" mt="3" textAlign="center">
-          {footer} - <a href={url} target="_blank" >{fullName}</a> - {address}
+        <Text fontSize={{ base: "sm", md: "md", lg: "lg" }} fontWeight="light" mt="3" textAlign="center">
+          {copyright} - <a href={url} target="_blank" >{fullName}</a> - {address}
         </Text>
       </footer>
     </>

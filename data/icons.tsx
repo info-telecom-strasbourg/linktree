@@ -66,11 +66,11 @@ export const EtherpadIcon = createIcon({
     viewBox: "0 0 16 16",
     path: (
         <g transform="translate(16.86 -1036.694)">
-            <path fill="#374256" stroke="#374256" stroke-miterlimit="3.6" stroke-width=".68"
+            <path fill="#374256" stroke="#374256" strokeMiterlimit="3.6" strokeWidth=".68"
                 d="M-11.806 1039.876h6.205l-.024-.899-3.13-.018-3.132-.018z" />
             <path fill="#b1b1b1"
                 d="M-4.38 1052.67v-2.174h2.174v2.173zM-15.245 1052.67v-2.174h2.173v2.173z" />
-            <path fill="none" stroke="#aeaeae" stroke-miterlimit="3.6" stroke-width=".543"
+            <path fill="none" stroke="#aeaeae" strokeMiterlimit="3.6" strokeWidth=".543"
                 d="m-14.159 1041.803 2.174-1.086v-2.125M-3.292 1041.803l-2.174-1.086.007-2.084" />
             <path fill="#374256"
                 d="M-15.245 1041.803c.014 3.844-.02 6.178 0 7.607.03 2.23 0 2.173 0 2.173 1.185 0 1.185 0 1.185 1.086H-3.39c0-1.086 0-1.086 1.185-1.086v-9.78z" />
@@ -78,14 +78,14 @@ export const EtherpadIcon = createIcon({
                 d="M-15.245 1042.89v-4.346h1.086v4.346zM-3.292 1042.89v-4.346h1.086v4.346z" />
             <path fill="#b1b1b1"
                 d="M-15.245 1038.544v-1.087h1.086v1.087zM-3.292 1038.544v-1.087h1.086v1.087z" />
-            <path fill="none" stroke="#374256" stroke-miterlimit="3.6" stroke-width=".543"
+            <path fill="none" stroke="#374256" strokeMiterlimit="3.6" strokeWidth=".543"
                 d="M-11.527 1038.85c2.616-2.577 3.165-2.38 5.603.017" />
             <rect width="9.869" height="1.121" x="-13.612" y="1043.678" fill="#80ecb6" stroke="#80ecb6"
-                stroke-miterlimit="3.6" stroke-width=".523" ry=".037" />
+                strokeMiterlimit="3.6" strokeWidth=".523" ry=".037" />
             <rect width="8.859" height="1.023" x="-13.548" y="1049.32" fill="#ff9800" stroke="#ff9800"
-                stroke-linecap="round" stroke-miterlimit="3.6" stroke-width=".474" ry=".034" />
+                strokeLinecap="round" strokeMiterlimit="3.6" strokeWidth=".474" ry=".034" />
             <rect width="6.143" height="1.142" x="-13.582" y="1046.542" fill="#f2f2f4" stroke="#f2f2f4"
-                stroke-linecap="round" stroke-miterlimit="3.6" stroke-width=".417" ry=".038" />
+                strokeLinecap="round" strokeMiterlimit="3.6" strokeWidth=".417" ry=".038" />
         </g>
     ),
 });
@@ -134,6 +134,17 @@ export const InsidePSBSIcon = createIcon({
                 fillOpacity="0."
             />
         </>
+    ),
+});
+
+export const WebIcon = createIcon({
+    displayName: "Web",
+    viewBox: "0 0 512 512",
+    path: (
+        <path
+            fill="white"
+            d="M352 256c0 22.2-1.2 43.6-3.3 64H163.3c-2.2-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64h185.4c2.2 20.4 3.3 41.8 3.3 64zm28.8-64h123.1c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64H380.8c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64zm112.6-32H376.7c-10-63.9-29.8-117.4-55.3-151.6 78.3 20.7 142 77.5 171.9 151.6zm-149.1 0H167.7c6.1-36.4 15.5-68.6 27-94.7 10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5 11.6 26 20.9 58.2 27 94.7zm-209 0H18.6c30-74.1 93.6-130.9 172-151.6-25.5 34.2-45.3 87.7-55.3 151.6zM8.1 192h123.1c-2.1 20.6-3.2 42-3.2 64s1.1 43.4 3.2 64H8.1C2.8 299.5 0 278.1 0 256s2.8-43.5 8.1-64zm186.6 254.6c-11.6-26-20.9-58.2-27-94.6h176.6c-6.1 36.4-15.5 68.6-27 94.6-10.5 23.6-22.2 40.7-33.5 51.5-11.2 10.7-20.5 13.9-27.8 13.9s-16.6-3.2-27.8-13.8c-11.3-10.8-23-27.9-33.5-51.5zM135.3 352c10 63.9 29.8 117.4 55.3 151.6-78.4-20.7-142-77.5-172-151.6h116.7zm358.1 0c-30 74.1-93.6 130.9-171.9 151.6 25.5-34.2 45.2-87.7 55.3-151.6h116.6z"
+        />
     ),
 });
 

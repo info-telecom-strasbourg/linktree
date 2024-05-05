@@ -20,11 +20,13 @@ import {
   FaInstagram,
   FaCode,
   FaDiscord,
+  FaGitlab,
+  FaChartBar,
 } from "react-icons/fa";
 import { MdLeaderboard } from "react-icons/md";
 import { GoFlame, GoCode } from "react-icons/go";
 
-import { NextcloudIcon, UptimeKumaIcon, OverleafIcon, ExcalidrawIcon, EtherpadIcon, InsidePSBSIcon, MatrixIcon, MinecraftIcon, VirtualminIcon } from "../data/icons";
+import { NextcloudIcon, UptimeKumaIcon, OverleafIcon, ExcalidrawIcon, EtherpadIcon, InsidePSBSIcon, MatrixIcon, MinecraftIcon, VirtualminIcon, WebIcon } from "../data/icons";
 
 type myIcons = {
   color: string;
@@ -58,6 +60,15 @@ const LinkCard = (props: CardProps) => {
         break;
       case "Youtube":
         values = { color: "#ff0000", icon: FaYoutube };
+        break;
+      case "Website":
+        values = { color: "#ffffff", icon: WebIcon };
+        break;
+      case "GitLab":
+        values = { color: "#FCA121", icon: FaGitlab };
+        break;
+      case "Servers key figures":
+        values = { color: "gray", icon: FaChartBar };
         break;
       case "Uptime Kuma":
         values = {

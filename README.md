@@ -1,30 +1,26 @@
-### Sharing links was never this easy and beautiful
-### Share all your profile links in just one link
+# ITS Linktree
 
-See the <a href="https://abhishek-links.vercel.app/">LIVE DEMO</a>
+![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+[![Deploy Next.js site to Pages](https://github.com/info-telecom-strasbourg/linktree/actions/workflows/nextjs.yml/badge.svg)](https://github.com/info-telecom-strasbourg/linktree/actions/workflows/nextjs.yml)
 
-### DEMO:
-![Screenshot from 2022-01-05 16-03-44](https://user-images.githubusercontent.com/77770628/148216345-48b24057-18dd-43a1-8e51-dc343a53ccb0.png)
+A simple Linktree-like page for ITS.
 
-<br/>Completely responsive and beautiful web UI built with Next js, Chakra UI and Typescript
+Generated using https://github.com/abhijhacodes/linkhub template.
 
-<br/>
+## Development
 
-<strong>To use this template:</strong>
+Clone the repository and install the dependencies:
+```bash
+npm i
+```
 
-- Click on use this template in this repository
-- Or clone the repo Or download the source code
-- To make this your own, you just have to change the data content
-    - data/mainDetails => Your name and headline
-    - data/linkDetails => All your social profiles with small description
-- You can add new profiles by just inserting the appropriate data in file
-- You can also remove the profiles by just deleting from the file
-- Default icon will be added to the data whose icon is not there now, so no need to worry
-- You can also change the code to add icons or request to add in the Discussions <a href="https://github.com/abhijhacodes/linkhub/discussions">HERE</a>
-- After making changes in the data folder, you can push the changes to your own github repo
-- Then deploy it on Vercel to share it with the world :D
-- And don't forget to star the repo
+Run the development server:
+```bash
+npm run dev
+```
 
-<br/><strong>You can request to add some new features or UI change, and you can also contribute to this open source project</strong>
+The cards are defined in `data/linkDetails.ts` and the icons in `data/icons.tsx`. The association is made by `components/LinkCard.tsx` using Font-Awesome icons and custom ones in SVG.
 
-### <br/>Happy Sharing <3
+## Deployment
+
+The site is automatically deployed to GitHub Pages using GitHub Actions. The deployment configuration is in `.github/workflows/nextjs.yml`.
