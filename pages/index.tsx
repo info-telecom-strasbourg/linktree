@@ -36,6 +36,7 @@ const Home: NextPage = () => {
               color="green.100"
               fontWeight="light"
               mt="3"
+              textAlign="center"
             >
               {tagline}
             </Text>

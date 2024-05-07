@@ -1,5 +1,5 @@
 export const fullName = "Info Télécom Strasbourg";
-export const tagline = "Télécom Physique Strasbourg informatic student association 🚀";
+export const tagline = "Télécom Physique Strasbourg computer science student association 🚀";
 export const url = "https://info-telecom-strasbourg.fr";
 const currentYear = new Date().getFullYear();
 export const copyright = `© ${currentYear}`;

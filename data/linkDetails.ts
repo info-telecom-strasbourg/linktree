@@ -114,7 +114,7 @@ export const CardData: Array<CardProps> = [
   {
     href: "",
     title: "Minecraft",
-    description: "Join our server mineraft.its-tps.fr",
+    description: "Join our server minecraft.its-tps.fr",
     section: "Servers",
   },
   {
