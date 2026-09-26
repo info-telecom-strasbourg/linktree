@@ -75,24 +75,24 @@ export const CardData: Array<CardProps> = [
     description: "",
     section: "Applications",
   },
-  {
-    href: "https://etherpad.its-tps.fr",
-    title: "Etherpad",
-    description: "",
-    section: "Applications",
-  },
+  // {
+  //   href: "https://etherpad.its-tps.fr",
+  //   title: "Etherpad",
+  //   description: "",
+  //   section: "Applications",
+  // },
   {
     href: "https://dionymph.its-tps.fr",
     title: "Dionymph",
     description: "Check out our video game project",
     section: "Applications",
   },
-  {
-    href: "https://gitlab.its-tps.fr",
-    title: "GitLab",
-    description: "",
-    section: "Applications",
-  },
+  // {
+  //   href: "https://gitlab.its-tps.fr",
+  //   title: "GitLab",
+  //   description: "",
+  //   section: "Applications",
+  // },
   {
     href: "https://uptime.its-tps.fr/status/its",
     title: "Uptime Kuma",
@@ -105,12 +105,12 @@ export const CardData: Array<CardProps> = [
     description: "Check out our servers key figures",
     section: "Servers",
   },
-  {
-    href: "https://matrix.its-tps.fr/_matrix/static/",
-    title: "Matrix",
-    description: "Check out our Matrix server",
-    section: "Servers",
-  },
+  // {
+  //   href: "https://matrix.its-tps.fr/_matrix/static/",
+  //   title: "Matrix",
+  //   description: "Check out our Matrix server",
+  //   section: "Servers",
+  // },
   {
     href: "",
     title: "Minecraft",
